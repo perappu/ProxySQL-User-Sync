@@ -7,6 +7,9 @@ import logging
 import sys
 import shutil
 import pymysql
+from dotenv import load_dotenv, dotenv_values 
+
+load_dotenv()
 
 # Default logging
 # pylint: disable=logging-fstring-interpolation
